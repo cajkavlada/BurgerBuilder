@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './BurgerIngredient.module.css';
-import Aux from '../../../hoc/Auxiliary'
+import Aux from '../../../hoc/Auxiliary/Auxiliary';
 
 const burgerIngredient = (props) => {
 
