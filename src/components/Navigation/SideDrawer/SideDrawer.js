@@ -13,7 +13,7 @@ const sideDrawer = (props) => {
                 <div className={styles.Logo}>
                     <Logo />
                 </div>
-                <NavigationItems />
+                <NavigationItems isAuth={props.isAuth}/>
             </div>
             <Backdrop show={props.show} hide={props.hide}/>
         </Aux>
