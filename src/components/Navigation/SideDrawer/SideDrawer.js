@@ -9,7 +9,7 @@ const sideDrawer = (props) => {
     const attachedClasses = props.show ? [styles.SideDrawer, styles.Open] : [styles.SideDrawer, styles.Close];
     return (
         <Aux>
-            <div className={attachedClasses.join(' ')}>
+            <div className={attachedClasses.join(' ')} onClick={props.hide}>
                 <div className={styles.Logo}>
                     <Logo />
                 </div>
